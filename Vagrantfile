@@ -70,11 +70,11 @@ Vagrant.configure(2) do |config|
     aws.secret_access_key = ENV['AWS_SECRET']
     aws.keypair_name = ENV['AWS_KEYNAME']
     aws.ami = "ami-bd3728d7"
+    #aws.ami = "ami-0d729a60"
     aws.region = "us-east-1"
-    aws.instance_type = "t2.medium"
+    aws.instance_type = "t2.small"
     aws.subnet_id = "subnet-39760b13"
     aws.security_groups = ['sg-d0f15dab','sg-7310bd08']
-    aws.iam_instance_profile_arn = 'arn:aws:iam::350616908892:instance-profile/market'
     aws.elastic_ip = "true"
     aws.associate_public_ip = "true"
     aws.ssh_host_attribute = "public_ip_address"
