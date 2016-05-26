@@ -1,4 +1,3 @@
-#!/bin/env bash
-gunzip /vagrant/cudnn-7.5-linux-x64-v5.0-ga.tar.gz
-tar xf /vagrant/cudnn-7.5-linux-x64-v5.0-ga.tar
+#!/usr/bin/env bash
+sudo mv /vagrant/libcudnn5_5.0.5-1+cuda7.5_amd64.deb /lib
 
