@@ -69,8 +69,8 @@ Vagrant.configure(2) do |config|
     aws.access_key_id = ENV['AWS_KEY']
     aws.secret_access_key = ENV['AWS_SECRET']
     aws.keypair_name = ENV['AWS_KEYNAME']
-    aws.ami = "ami-bd3728d7"
-    #aws.ami = "ami-0d729a60"
+    #aws.ami = "ami-bd3728d7"
+    aws.ami = "ami-0d729a60"
     aws.region = "us-east-1"
     aws.instance_type = "t2.small"
     aws.subnet_id = "subnet-39760b13"
