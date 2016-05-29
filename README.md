@@ -21,7 +21,7 @@ echo '. ~/.bashrc' >> ~/.bash_profile
 ./artistic-transfer.sh
 ```
 
-## stylize test image example
+## stylize image example
 ``` sh
 cd /home/ubuntu/torch/neural-style
 th neural_style.lua -style_image vangoghselfportrait.jpg -content_image /vagrant/Marcia_Head.jpg  -backend cudnn -cudnn_autotune -optimizer lbfgs
