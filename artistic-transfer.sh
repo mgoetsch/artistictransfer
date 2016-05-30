@@ -4,8 +4,8 @@ gunzip DeepFlow_release2.0.tar.gz
 tar xvf DeepFlow_release2.0.tar
 unzip deepmatching_1.2.1.zip
 cd /home/ubuntu
-git clone https://github.com/manuelruder/artistic-videos.git
+git clone https://github.com/mgoetsch/artistic-videos.git
 mv /vagrant/DeepFlow_release2.0/deepflow2-static artistic-videos
 mv /vagrant/deepmatching_1.2.1_c++/deepmatching-static artistic-videos
-cd artistic-videos/models
-sh download-models.sh
+cd /home/ubuntu/artistic-videos/models
+sh download_models.sh

@@ -7,14 +7,15 @@ with vagrant
 ``` sh
 /vagrant/cudnn.sh
 echo 'export LD_LIBRARY_PATH=/lib64' >> ~/.bashrc
+sudo chown ubuntu:ubuntu ~/.bash_profile
+echo '. ~/.bashrc' >> ~/.bash_profile
 sudo reboot
 ```
 
 ## secondboot
 ``` sh
 cd /vagrant
-./torch.sh
-echo '. ~/.bashrc' >> ~/.bash_profile
+./torch7.sh
 . ~/.bashrc
 ./loadcaffe.sh
 ./neural-style.sh
