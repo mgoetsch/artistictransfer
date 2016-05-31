@@ -16,10 +16,7 @@ Vagrant.configure(2) do |config|
 
   # multiple hosts
   config.vm.define "bigmem"
-  #config.vm.define "node2"
-  #config.vm.define "node3"
-  #config.vm.define "node4"
-  #config.vm.define "node5"
+  config.vm.define "gpu"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
