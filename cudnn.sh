@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-sudo mv /vagrant/libcudnn5_5.0.5-1+cuda7.5_amd64.deb /lib
-
+gunzip /vagrant/cudnn-7.0-linux-x64-v4.0-prod.tgz
+tar xf /vagrant/cudnn-7.0-linux-x64-v4.0-prod.tar
+sudo mv cuda/include/* /usr/include
+sudo mv cuda/lib64/* /lib64
