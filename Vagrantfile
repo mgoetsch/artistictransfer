@@ -15,7 +15,7 @@ Vagrant.configure(2) do |config|
   config.vm.box = "dummy"
 
   # multiple hosts
-  #config.vm.define "node1"
+  config.vm.define "bigmem"
   #config.vm.define "node2"
   #config.vm.define "node3"
   #config.vm.define "node4"
