@@ -30,7 +30,7 @@ th neural_style.lua -style_image vangoghselfportrait.jpg -content_image /vagrant
 
 ## stylize video example (create optical flow with bigmem)
 ``` sh
-cd /home/ubuntu/artistic-videos
+cd /mnt/ubuntu/artistic-videos
 ./stylizeVideo.sh /home/ubuntu/Street_Music.mov /home/ubuntu/torch/neural-style/examples/inputs/woman-with-hat-matisse.jpg
 ```
 
@@ -46,5 +46,6 @@ sudo reboot
 ```
 ### secondboot
 ``` sh
+cd /mnt/ubuntu/artistic-videos
 ./stylizeVideo.sh /home/ubuntu/Street_Music.mov /home/ubuntu/torch/neural-style/examples/inputs/woman-with-hat-matisse.jpg
 ```
